@@ -1,0 +1,18 @@
+.course-details a:hover {
+    background-color: transparent;
+}
+.course-details a button {
+    margin-left:30px;
+    margin-bottom:10px;
+    font-size: 14px;
+    color:black;
+    padding:10px;
+    border-radius: 10px;
+}
+.course-details a button:hover {
+    text-decoration: none;
+}
+
+.course-details th:last-child, .course-details th:nth-last-child(2) {
+    padding-left: 0px;
+}

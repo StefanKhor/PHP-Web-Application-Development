@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    font-family: 'Montserrat', sans-serif;
+    background: #a3d698;
+    color: black;
+    padding: 25px 20px;
+    font-size: 20px;
+ }
+ 
+.Container1 {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .Container1 form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Container1 .course-container .input-box {
+    margin-bottom: 20px;
+  }
+  
+  .Container1 label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .Container1 input[type="text"],
+  .Container1 input[type="date"],
+  .Container1 input[type="time"],
+  .Container1 input[type="number"],
+  .Container1 textarea,
+  .Container1 select {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .Container1 textarea {
+    resize: vertical;
+  }
+  
+  .Container1 hr {
+    border-top: 1px solid black;
+    margin: 20px 0;
+  }
+  
+  .Container1 .course-section {
+    margin-bottom: 20px;
+  }
+  
+  .Container1 .course-section .input-box {
+    margin-bottom: 20px;
+  }
+  
+  .Container1 .addSection {
+    margin-top: 20px;
+  }
+  
+  .Container1 input[type="button"],
+  .Container1 input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .Container1 input[type="button"]:hover,
+  .Container1 input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .Container1 a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .Container1 a:hover {
+    text-decoration: underline;
+  }

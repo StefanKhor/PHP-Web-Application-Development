@@ -1,0 +1,63 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.course-feedback, .instructor-feedback{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+table{
+    width: 80%;
+    min-width: 430px;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: orange;
+    border-bottom: 2px solid black;
+}
+
+tr{
+    background-color: white;
+}
+
+td{
+    padding: 10px;
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgb(225, 225, 225);
+}
+
+.header{
+    width: 150px;
+    text-align: center;
+    background-color: #a3d698;
+    border-radius: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.title{
+    background: #a3d698;
+    color: black;
+    padding: 25px 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    min-width: 620px;
+}

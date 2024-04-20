@@ -1,0 +1,246 @@
+#allInstructors{
+    border: 1px solid black;
+    margin-top : 1rem;
+    margin-bottom: 1rem;
+    margin-left:4rem;
+    padding : 2rem;
+    box-shadow : 1px 1px 8px #000000;
+    border-radius : 5px;
+    background-color: white;
+    width : min(90%,80rem);
+}
+
+.instructor-list{ 
+    display: flex;
+    justify-content: left;
+    align-items : center;
+    flex-wrap : wrap;
+    margin-bottom : 1rem;
+}
+
+.instructor-list h3,button{ 
+    margin-left: 3rem;
+}
+
+.instructor-list img{ 
+    width : 100px;
+    height : 100px;
+    border-radius: 200px;
+    background-color: white;
+    border : 0.5px solid black;
+}
+
+.instructor-list button{ 
+    width : 100px;
+    height : 30px;
+    border-radius:5px;
+}
+
+.instructor-list h3{
+    width : 9rem;
+    margin-bottom:1rem;
+}
+
+#instructorName{
+    width : 10rem;
+    word-wrap: break-word;
+}
+
+.instructor-list button{
+    background-color : white;
+    border-radius:5px;
+    box-shadow : 1px 1px 8px #000000;
+    border : 0.8px solid black;
+}
+.instructor-list button:hover{
+    transform: translateX(0.1rem);
+    transform: translateY(0.1rem);
+    transition: transform 0.25s;
+}
+
+.instructor-list:hover{
+    background-color: antiquewhite;
+    transform: translateY(0.1rem);
+    transform: translateX(0.5rem);
+    transition: transform 0.25s;
+    box-shadow : 1px 1px 8px #000000;
+    border : 0.8px solid black;
+    border-radius:5px;
+    padding:1rem;
+}
+
+.dialog-container {
+    margin: auto;
+    padding : 5rem;
+}
+
+#specialH1{
+    width : 100%;
+    padding : 1rem 2rem 1rem 4rem;
+    margin-bottom:1.5rem;
+}
+
+#dialog-box{
+    border-radius : 5px;
+    border : 1px solid black;
+    padding: 4rem;
+}
+
+#dialog-box::backdrop {
+    backdrop-filter: blur(20rem);
+}
+
+#dialog-box p{
+    margin-bottom: 1rem;
+}
+#dialog-box br{
+    margin-bottom: 2rem;
+}
+
+#dialog-box h2{
+    margin-bottom: 3rem;
+}
+
+.title {
+    display : inline-block;
+    width : 6rem;
+    color:black;
+}
+
+.colon {
+    margin-right: 3rem;
+    color:black;
+}
+
+#dialog-box button:hover{
+    background-color: antiquewhite;
+    transform: translateY(0.1rem);
+    transform: translateX(0.1rem);
+    transition: transform 0.1s;
+    box-shadow : 1px 1px 8px #000000;
+    border : 0.8px solid black;
+    border-radius:5px;
+}
+#allInstructors{
+    border: 1px solid black;
+    margin-top : 1rem;
+    margin-bottom: 1rem;
+    margin-left:4rem;
+    padding : 2rem;
+    box-shadow : 1px 1px 8px #000000;
+    border-radius : 5px;
+    background-color: white;
+    width : min(90%,80rem);
+}
+
+.instructor-list{ 
+    display: flex;
+    justify-content: left;
+    align-items : center;
+    flex-wrap : wrap;
+    margin-bottom : 1rem;
+}
+
+.instructor-list h3,button{ 
+    margin-left: 3rem;
+}
+
+.instructor-list img{ 
+    width : 100px;
+    height : 100px;
+    border-radius: 200px;
+    background-color: white;
+    border : 0.5px solid black;
+}
+
+.instructor-list button{ 
+    width : 100px;
+    height : 30px;
+    border-radius:5px;
+}
+
+.instructor-list h3{
+    width : 9rem;
+    margin-bottom:1rem;
+}
+
+#instructorName{
+    width : 10rem;
+    word-wrap: break-word;
+}
+
+.instructor-list button{
+    background-color : white;
+    border-radius:5px;
+    box-shadow : 1px 1px 8px #000000;
+    border : 0.8px solid black;
+}
+.instructor-list button:hover{
+    transform: translateX(0.1rem);
+    transform: translateY(0.1rem);
+    transition: transform 0.25s;
+}
+
+.instructor-list:hover{
+    background-color: antiquewhite;
+    transform: translateY(0.1rem);
+    transform: translateX(0.5rem);
+    transition: transform 0.25s;
+    box-shadow : 1px 1px 8px #000000;
+    border : 0.8px solid black;
+    border-radius:5px;
+    padding:1rem;
+}
+
+.dialog-container {
+    margin: auto;
+    padding : 5rem;
+}
+
+#specialH1{
+    width : 100%;
+    padding : 1rem 2rem 1rem 4rem;
+    margin-bottom:1.5rem;
+}
+
+#dialog-box{
+    border-radius : 5px;
+    border : 1px solid black;
+    padding: 4rem;
+}
+
+#dialog-box::backdrop {
+    backdrop-filter: blur(20rem);
+}
+
+#dialog-box p{
+    margin-bottom: 1rem;
+}
+#dialog-box br{
+    margin-bottom: 2rem;
+}
+
+#dialog-box h2{
+    margin-bottom: 3rem;
+}
+
+.title {
+    display : inline-block;
+    width : 6rem;
+    color:black;
+}
+
+.colon {
+    margin-right: 3rem;
+    color:black;
+}
+
+#dialog-box button:hover{
+    background-color: antiquewhite;
+    transform: translateY(0.1rem);
+    transform: translateX(0.1rem);
+    transition: transform 0.1s;
+    box-shadow : 1px 1px 8px #000000;
+    border : 0.8px solid black;
+    border-radius:5px;
+}

@@ -1,0 +1,133 @@
+#hiddenFeedback{
+    padding: 1rem 2rem 1rem 4rem;
+}
+
+#allFeedback{
+    width : 100%;
+}
+
+#courseFeedback{
+
+}
+
+#instructorFeedback{
+
+}
+
+#courseFeedback,#instructorFeedback{
+    width:auto;
+    padding:1rem;
+    margin-right:5rem;
+    box-shadow : 1px 1px 8px #000000;
+    border : 0.8px solid black;
+    margin-bottom : 1rem;
+    border-radius: 10px;
+    display :flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+#courseFeedback h1,#instructorFeedback h1{
+    margin-bottom: 1.5rem;
+    text-decoration-line: underline;
+}
+
+#courseFeedback h3,#instructorFeedback h3{
+    clear:both;
+    margin-bottom: 1rem;
+}
+#courseFeedback p,#instructorFeedback p{
+    margin-bottom: 1.5rem;
+}
+
+label{
+    text-shadow : 1px 1px 1px #000000;
+}
+
+#courseFeedback button,#instructorFeedback button{
+    margin-bottom: 1rem;
+    width : 5rem;
+    height : 2rem;
+    margin:auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow : 1px 1px 8px #000000;
+    border : 0.8px solid black;
+}
+
+#courseFeedback button:hover,#instructorFeedback button:hover{
+    transform: translateY(0.1rem);
+    transform: translateX(0.5rem);
+    transition: transform 0.25s;
+}
+
+#courseFeedback p img,#instructorFeedback p img{
+    width:2rem;
+    height:2rem;
+}
+
+textarea{
+    width : 20rem;
+    box-shadow : 1px 1px 8px #000000;
+    border : 0.8px solid black;
+    background-color: rgb(230, 230, 230);;
+    padding:0.5rem;
+}
+
+#allFeedback {
+    margin-top:-2rem;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+
+}
+
+.instructorRating,.courseRating{
+    height:2rem;
+}
+
+.instructorRating,
+.courseRating {
+    float: left;
+    height: 4rem;
+}
+
+.instructorRating:not(:checked) > input,
+.courseRating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.instructorRating:not(:checked) > label,
+.courseRating:not(:checked) > label {
+    float:right;
+    width:1em;
+    height : 1.5em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:2rem;
+    color:rgb(230, 230, 230);
+}
+.instructorRating:not(:checked) > label:before,
+.courseRating:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.instructorRating:not(:checked) > label:hover,
+.instructorRating:not(:checked) >   label:hover ~ label,
+.instructorRating > input:checked + label:hover,
+.instructorRating > input:checked + label:hover ~ label,
+.instructorRating > input:checked ~ label:hover,
+.instructorRating > input:checked ~ label:hover ~ label,
+.instructorRating > label:hover ~ input:checked ~ label,
+.instructorRating > input:checked ~ label,
+.courseRating:not(:checked) > label:hover,
+.courseRating:not(:checked) >   label:hover ~ label,
+.courseRating > input:checked + label:hover,
+.courseRating > input:checked + label:hover ~ label,
+.courseRating > input:checked ~ label:hover,
+.courseRating > input:checked ~ label:hover ~ label,
+.courseRating > label:hover ~ input:checked ~ label,
+.courseRating > input:checked ~ label {
+    color: orange;  
+}

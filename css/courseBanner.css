@@ -1,0 +1,93 @@
+:root {
+    --text--theme--main   : Helvetica, Arial, Verdana;
+    --colour--theme--main : #a3d698;
+    --colour--theme--sub  : #c5e4d1;
+}
+
+body {
+    display: block;
+}
+
+.banner {
+    margin: 1.5rem 1rem 2.5rem 1.5rem;
+    width : auto;
+    background-color: var(--colour--theme--main);
+    display : flex;
+    align-items : center;
+    flex-wrap : wrap;
+    justify-content: space-between;
+    box-shadow : 1px 1px 8px #000000;
+    border-radius : 5px;
+}
+
+.banner .left-panel{
+    padding : 0rem 2rem 0rem 4rem;
+    display : flex;
+    align-items : center;
+    flex-wrap : wrap;
+}
+
+.banner .image-container {
+    width: 18rem;
+    height: 9rem;
+    padding-right: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align : center;
+}
+
+.banner .image-container img {
+    background-color: white;
+    width : 100%;
+    height: 100%;
+    box-shadow : 1px 1px 8px #000000;
+    border : 0.1px solid white;
+}
+
+.banner .left-right-panel{
+    color : white;
+    max-width : 40rem;
+}
+
+.banner .left-right-panel h1{
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-shadow : 0.2px 0.2px 0.2px #000000;
+}
+.banner .left-right-panel p{
+    margin-bottom: 1rem;
+    text-shadow : 0.2px 0.2px 0.2px #000000;
+}
+
+.banner .right-panel{
+    padding: 1rem 1.5rem 1rem 4rem;
+}
+
+.banner .right-panel button{
+    background-color: white;
+    border-radius : 5px;
+    width : 8rem;
+    height : 2.5rem;
+    margin-bottom : 0.5rem;
+    box-shadow : 1px 1px 8px #000000;
+    border : 0.8px solid black;
+}
+
+.banner .right-panel button:hover{
+    transform: translateY(0.1rem);
+    transform: translateX(0.1rem);
+    transition: transform 0.25s;
+    background-color: antiquewhite;
+}
+
+#hiddenDetail {
+    background-color: var(--colour--theme--sub);
+    padding : 1rem;
+    padding-left : 4rem;
+    margin: -2.5rem 1rem 2.5rem 1.5rem;
+    box-shadow : 1px 1px 8px #000000;
+    border-radius : 0px 0px 5px 5px;
+}

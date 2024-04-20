@@ -1,0 +1,59 @@
+:root {
+    --colour--theme--main : #a3d698;
+    --colour--theme--sub  : #9AD9B3;
+    --colour--theme--grey : #dddddd;
+}
+
+.courseIntroSection, .instructor-list {
+    padding : 1rem 2rem 1rem 4rem;
+}
+
+.courseIntroSection p {
+    margin-bottom : 3rem;
+}
+
+.courseIntroSection h2 {
+    margin-bottom : 1em;
+}
+
+.instructor-list {
+    display : flex;
+    align-items : center;
+    flex-wrap : wrap;
+}
+
+.instructor-list h2{
+    width : 100%;
+    padding-bottom : 2rem;
+}
+
+.instructor:hover{
+    box-shadow : 1px 1px 8px #000000;
+    transform: translateY(0.1rem);
+    transform: translateX(0.5rem);
+    transition: transform 0.25s;
+    border-radius: 5px;
+    padding:1rem;
+    background-color: antiquewhite;
+}
+
+.instructor-list .instructor {
+    display : flex;
+    flex-wrap : wrap;
+    padding:1rem;
+    width :50%;
+    margin-bottom: 2rem;
+}
+
+.instructor-list .instructor p {
+    margin-left : 1rem;
+    margin-right : 6rem;
+    margin-block : auto;
+}
+
+.instructor-list .instructor img {
+    height : 5rem;
+    width : 5rem;
+    border-radius: 1000px;
+    border : 0.5px solid black;
+}

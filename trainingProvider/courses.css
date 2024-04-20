@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0 0;
+}
+
+header.header-bar{
+    font-family: 'Montserrat', sans-serif;
+    background: #a3d698;
+    color: white;
+    padding: 1px 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ongoing-course h1, .ended-course h1, .course-details h1{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: left;
+    background-color: orange;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #666;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #337ab7;
+    border-radius : 50px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 15px;
+    display: flex;
+}
+
+button:hover {
+    background-color: #286090;
+}
+
+.display-course-container {
+    background-color: rgb(208, 208, 208);
+    padding: 5px;
+    margin: 0px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.left-panel{
+    width: 70%;
+    float: left;
+    margin-right: 10px;
+    margin-left: 35px;
+}
+
+.display-course {
+    clear: left;
+    background-color: rgb(246, 246, 246);
+    border-radius: 20px;
+    margin: 30px 15px;
+    padding: 30px;
+    color: black;
+    transition: transform 0.3s ease;
+}
+
+.display-course:hover{
+    background-color: rgb(239, 239, 239);
+    transform: scale(1.01);
+}
+
+.course-id {
+    float: left;
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+}
+
+.course-title {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+
+}
+
+.course-details{
+    border-radius: 10px;
+    float: left;
+    width: 25%;
+    height: fit-content;
+}
+
+.course-details h1{
+    margin-bottom: 0;
+}
+
+.course-details-box button{
+    margin-right: 0px;
+}
+
+.course-details-box{
+    margin: 0;
+    padding: 5px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}

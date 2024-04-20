@@ -1,0 +1,87 @@
+:root {
+    --text--theme--main   : Helvetica, Arial, Verdana;
+    --colour--theme--main : #a3d698;
+    --colour--theme--sub  : #9AD9B3;
+    --colour--theme--grey : #dddddd;
+}
+
+
+* {
+    margin : 0;
+    padding : 0;
+}
+
+body{
+    padding : 2.5% 2.5%;
+    display: block;
+}
+
+body h1{
+    padding-left : 1.5rem;
+    margin-top:1%;
+}
+
+.class-container{
+    margin-top: 1.5%;
+    max-width:100%;
+    display : flex;
+    flex-wrap: wrap;
+}
+
+.class-child{
+    border : 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 0rem;
+    margin-bottom : 1.5rem;
+    margin-left : 1.5rem;
+    margin-top : 0.5rem;
+    width : 20rem;
+    height : 16rem;
+}
+
+.class-child:hover{
+    box-shadow: 0px 0px 9px black;
+    transform: translateY(0.1rem);
+    transform: translateX(0.1rem);
+    transition: transform 0.25s;
+}
+
+.class-child a {
+    text-decoration : none;
+}
+
+.courseImage{
+    background-color: white;
+    width : 100%;
+    height: 65%;
+    padding :0;
+    margin : 0;
+    text-align: center;
+    justify-content : center;
+    justify-content: middle;
+}
+
+.courseImage img{
+    background-color: white;
+    width : 100%;
+    height: 100%;
+    object-fit : fill;
+    padding :0;
+    margin : 0;
+}
+
+.class-child h2{
+    background-color: var(--colour--theme--sub);
+    border-top : 2px solid black;
+    width : 100%;
+    height: 35%;
+    padding : 1rem;
+    text-align: left;
+    color : white;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin : 0;
+}
